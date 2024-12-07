@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/InduMahesh/https://github.com/InduMahesh/devops-project.git'
+                git 'https://github.com/InduMahesh/devops-project.git'
             }
         }
         stage('Build Docker Image') {
@@ -18,3 +18,5 @@ pipeline {
             }
         }
     }
+}
+
